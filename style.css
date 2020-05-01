@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  color: white;
+  font-size: 5rem;
+  font-weight: 100;
+}
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ville-form {
+  height: 10vh;
+}
+.ville-form form input:focus {
+  outline: none;
+  border-left: solid white 3px;
+  border-bottom: solid white 3px;
+}
+.ville-form form input:checked {
+  border: none;
+}
+.ville-form form input {
+  height: 4vh;
+  width: 600px;
+  margin-top: 200px;
+  border-left: solid white 3px;
+  border-bottom: solid white 3px;
+  border-right: none;
+  border-top: none;
+  background-color: black;
+  padding: 10px;
+  font-size: 1.5em;
+}
+.ville-form button {
+  color: white;
+  background-color: black;
+  border: none;
+  font-size: 2em;
+  margin: 0 30px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.25);
+}
+.ville-form button:focus {
+  outline: none;
+}
+.temperature-section {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  top: 200px;
+  justify-content: space-between;
+  width: 670px;
+  align-items: center;
+}
+.temperature-section .temperature {
+  order: 2;
+  font-size: 8em;
+}
+.temperature {
+  display: flex;
+}
+.temperature-section .temperature span {
+  font-size: 50px;
+  align-self: baseline;
+  margin: 30px 20px;
+  filter: blur(2px);
+}
+
+.ville h3 {
+  font-size: 5em;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 88px;
+  color: #ffffff;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.25);
+}
+.ville h4 {
+  font-size: 2.5em;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 72px;
+  line-height: 88px;
+
+  color: rgba(255, 255, 255, 0.38);
+}
